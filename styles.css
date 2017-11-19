@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px 5px;
+}
+
+.contacts-btns-holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.fa {
+  margin-right: 5px;
+}
