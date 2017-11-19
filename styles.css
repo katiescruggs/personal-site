@@ -31,3 +31,28 @@ h1 {
 .fa {
   margin-right: 5px;
 }
+
+.projects-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  background-color: aliceblue;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+h3 {
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+.project-screenshot {
+  display: block;
+  margin: 10px 0;
+  width: 600px;
+}
