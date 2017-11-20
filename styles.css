@@ -118,6 +118,10 @@ h3 {
     width: 90%;
   }
 
+  .project {
+    margin: 20px 0;
+  }
+
   .project,
   .project-screenshot {
     width: 500px;
@@ -147,7 +151,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .project,
   .project-screenshot {
     width: 300px;
