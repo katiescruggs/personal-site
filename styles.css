@@ -30,6 +30,8 @@ h1 {
 }
 
 .contact-btn {
+  background-color: white;
+  border: 2px solid white;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin: 0 5px;
@@ -100,4 +102,54 @@ h3 {
   display: block;
   margin: 10px 0;
   width: 600px;
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  .contact-btn,
+  .about-section {
+    font-size: 16px;
+  }
+
+  .about-section {
+    width: 90%;
+  }
+
+  .project,
+  .project-screenshot {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .project,
+  .project-screenshot {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  .contact-btn {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .project,
+  .project-screenshot {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .project,
+  .project-screenshot {
+    width: 300px;
+  }
 }
