@@ -8,7 +8,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
+header,
+footer {
   background-color: #062A4A;
   padding: 20px;
 }
@@ -44,7 +45,8 @@ h1 {
   cursor: pointer;
 }
 
-header .fa {
+header .fa,
+.contact-section .fa {
   margin-right: 5px;
 }
 
@@ -56,8 +58,13 @@ h2 {
 }
 
 .about-section {
+  background-color: #EDEFEF;
+  padding: 30px;
+}
+
+.about-paragraph {
   font-size: 20px;
-  margin: 30px auto 0 auto;
+  margin: 10px auto;
   width: 70%;
 }
 
@@ -142,6 +149,22 @@ h3 {
   display: block;
   margin: 10px 0;
   width: 600px;
+}
+
+.contact-section {
+  background-color: #EDEFEF;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-section p {
+  font-size: 22px;
+  padding: 10px;
+}
+
+footer {
+  color: white;
+  text-align: center;
 }
 
 @media screen and (max-width: 650px) {
