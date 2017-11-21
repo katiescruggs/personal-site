@@ -5,7 +5,6 @@
 
 body {
   background: white;
-  background: linear-gradient(to bottom right,  white, #CCDDED);
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,7 +17,7 @@ h1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   margin: 20px 5px;
 }
@@ -30,36 +29,67 @@ h1 {
 }
 
 .contact-btn {
-  background-color: white;
-  border: 2px solid white;
+  background-color: #707D82;
+  border: 2px solid #707D82;
+  color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin: 0 5px;
   padding: 10px;
 }
 
+.contact-btn:hover {
+  background-color: #545E62;
+  border: 2px solid #545E62;
+  cursor: pointer;
+}
+
 header .fa {
   margin-right: 5px;
 }
 
+h2 {
+  color: #266DD3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
 .about-section {
-  font-size: 18px;
+  font-size: 20px;
   margin: 30px auto 0 auto;
   width: 70%;
 }
 
-.about-section a,
-.project-links a {
+.about-section a {
   color: #02457D;
   font-weight: bold;
   text-decoration: none;
 }
 
-.about-section a:hover,
-.project-links a:hover {
-  color: #02457D;
-  color: #387AAC;
-  /*text-decoration: underline;*/
+.about-section a:hover {
+  color: #266DD3;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list li {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+.skills-title,
+.projects-title {
+  margin-top: 40px;
+}
+
+.projects-title {
+  margin-bottom: -20px;
 }
 
 .projects-section {
@@ -75,6 +105,7 @@ header .fa {
 }
 
 .project {
+  /*background-color: lightsteelblue;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -83,8 +114,10 @@ header .fa {
 }
 
 h3 {
+  /*color: #545E62;*/
   font-size: 24px;
-  font-weight: normal;
+  text-align: center;
+  /*font-weight: normal;*/
 }
 
 .project-links {
@@ -94,7 +127,14 @@ h3 {
 }
 
 .project-links a {
-  font-size: 18px;
+  color: #266DD3;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: #02457D;
 }
 
 .project-screenshot {
