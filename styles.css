@@ -4,7 +4,7 @@
 }
 
 body {
-  background: white;
+  background-color: #062A4A;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -101,6 +101,7 @@ h2 {
 
 .projects-section {
   align-items: center;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
