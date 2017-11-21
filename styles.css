@@ -58,7 +58,7 @@ h2 {
 }
 
 .about-section {
-  background-color: #EDEFEF;
+  background-color: #DBDDDD;
   padding: 30px;
 }
 
@@ -112,7 +112,6 @@ h2 {
 }
 
 .project {
-  /*background-color: lightsteelblue;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -121,10 +120,8 @@ h2 {
 }
 
 h3 {
-  /*color: #545E62;*/
   font-size: 24px;
   text-align: center;
-  /*font-weight: normal;*/
 }
 
 .project-links {
@@ -152,7 +149,7 @@ h3 {
 }
 
 .contact-section {
-  background-color: #EDEFEF;
+  background-color: #DBDDDD;
   padding: 30px;
   text-align: center;
 }
@@ -160,6 +157,15 @@ h3 {
 .contact-section p {
   font-size: 22px;
   padding: 10px;
+}
+
+.contact-section a {
+  color: #062A4A;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  color: #266DD3;
 }
 
 footer {
