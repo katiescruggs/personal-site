@@ -65,6 +65,7 @@ h2 {
 .about-paragraph {
   font-size: 20px;
   margin: 10px auto;
+  text-align: justify;
   width: 70%;
 }
 
@@ -176,7 +177,7 @@ footer {
 
 @media screen and (max-width: 650px) {
   h1 {
-    font-size: 46px;
+    font-size: 55px;
   }
 
   .contact-btn,
@@ -184,8 +185,8 @@ footer {
     font-size: 16px;
   }
 
-  .about-section {
-    width: 90%;
+  .about-paragraph {
+    width: 95%;
   }
 
   .project {
@@ -206,13 +207,9 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
-  h1 {
-    font-size: 38px;
-  }
 
   .contact-btn {
-    font-size: 12px;
-    padding: 5px;
+    padding: 10px 2px;
   }
 
   .project,
